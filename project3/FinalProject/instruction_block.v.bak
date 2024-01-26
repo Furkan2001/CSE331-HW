@@ -1,0 +1,5 @@
+module instruction_block (output [31:0] instruction, input [31:0] pc);
+
+
+
+endmodule

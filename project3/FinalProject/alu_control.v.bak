@@ -1,0 +1,7 @@
+module alu_control (input [2:0] ALUop, input [5:0] function_code, output [2:0] alu_ctr);
+
+wire [3:0] r1,r2,r3,r4,r5,r6;
+
+and and1(r1, ALUop, 3'b111);
+
+endmodule

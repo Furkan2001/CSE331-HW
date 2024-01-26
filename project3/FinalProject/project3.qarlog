@@ -1,0 +1,57 @@
+Quartus Prime Archive log --	C:/Users/Furkan/Desktop/project3/project2_restored/project3.qarlog
+
+Archive:	C:/Users/Furkan/Desktop/project3/project2_restored/project3.qar
+Date:		Thu Jan 18 19:08:54 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Furkan/Desktop/project3/project2_restored/adder_1_bit.v
+C:/Users/Furkan/Desktop/project3/project2_restored/alu_control.v
+C:/Users/Furkan/Desktop/project3/project2_restored/assignment_defaults.qdf
+C:/Users/Furkan/Desktop/project3/project2_restored/cla_32_bit.v
+C:/Users/Furkan/Desktop/project3/project2_restored/cla_4_bit.v
+C:/Users/Furkan/Desktop/project3/project2_restored/control_unit.v
+C:/Users/Furkan/Desktop/project3/project2_restored/design_p_and_g.v
+C:/Users/Furkan/Desktop/project3/project2_restored/extendForJump.v
+C:/Users/Furkan/Desktop/project3/project2_restored/instruction_block.v
+C:/Users/Furkan/Desktop/project3/project2_restored/instructions.mem
+C:/Users/Furkan/Desktop/project3/project2_restored/memory.mem
+C:/Users/Furkan/Desktop/project3/project2_restored/memory_block.v
+C:/Users/Furkan/Desktop/project3/project2_restored/mips.v
+C:/Users/Furkan/Desktop/project3/project2_restored/mod.v
+C:/Users/Furkan/Desktop/project3/project2_restored/mod_cu.v
+C:/Users/Furkan/Desktop/project3/project2_restored/mod_dp.v
+C:/Users/Furkan/Desktop/project3/project2_restored/mux2x1_1bit.v
+C:/Users/Furkan/Desktop/project3/project2_restored/mux2x1_32bit.v
+C:/Users/Furkan/Desktop/project3/project2_restored/mux8x1_1bit.v
+C:/Users/Furkan/Desktop/project3/project2_restored/mux8x1_32bit.v
+C:/Users/Furkan/Desktop/project3/project2_restored/my_add.v
+C:/Users/Furkan/Desktop/project3/project2_restored/my_alu.v
+C:/Users/Furkan/Desktop/project3/project2_restored/my_and.v
+C:/Users/Furkan/Desktop/project3/project2_restored/my_and_32_bit.v
+C:/Users/Furkan/Desktop/project3/project2_restored/my_nor.v
+C:/Users/Furkan/Desktop/project3/project2_restored/my_nor_32_bit.v
+C:/Users/Furkan/Desktop/project3/project2_restored/my_or.v
+C:/Users/Furkan/Desktop/project3/project2_restored/my_or_32_bit.v
+C:/Users/Furkan/Desktop/project3/project2_restored/my_testbench.v
+C:/Users/Furkan/Desktop/project3/project2_restored/my_xor.v
+C:/Users/Furkan/Desktop/project3/project2_restored/my_xor_32_bit.v
+C:/Users/Furkan/Desktop/project3/project2_restored/project2.qpf
+C:/Users/Furkan/Desktop/project3/project2_restored/project2.qsf
+C:/Users/Furkan/Desktop/project3/project2_restored/register_block.v
+C:/Users/Furkan/Desktop/project3/project2_restored/registers.mem
+C:/Users/Furkan/Desktop/project3/project2_restored/shift_left_2.v
+C:/Users/Furkan/Desktop/project3/project2_restored/sign_extend.v
+C:/Users/Furkan/Desktop/project3/project2_restored/simulation/modelsim/instructions.mem
+C:/Users/Furkan/Desktop/project3/project2_restored/simulation/modelsim/memory.mem
+C:/Users/Furkan/Desktop/project3/project2_restored/simulation/modelsim/registers.mem
+	======= Total: 40 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Thu Jan 25 22:12:55 2024
+Source archive file:	C:/Users/Furkan/Downloads/project3 1/project3/project2_restored/project3.qar
+Archive was extracted into	C:/Users/Furkan/Downloads/project3 1/project3/project2_restored/project3_restored/
+		 - successfully.

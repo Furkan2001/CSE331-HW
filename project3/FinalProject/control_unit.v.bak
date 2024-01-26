@@ -1,0 +1,5 @@
+module control_unit (output regDst, branch, memReadi memWrite, ALUsrc, regWrite, jump, byteOperations, move, output [2:0] ALUop, input [5:0] opcode);
+
+
+
+endmodule

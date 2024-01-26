@@ -1,0 +1,7 @@
+module extendForJump (input [25:0] jumpAdd, input [3:0] pcFirst4, output [31:0] out);
+
+	not not1 (out[0], 1'b1);
+	not not1 (out[1], 1'b1);
+	and and1 (out);
+
+endmodule
