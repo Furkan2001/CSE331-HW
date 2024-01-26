@@ -1,0 +1,5 @@
+module mux8x1 (output R, input in1, in2, input [2:0], selection);
+
+
+
+endmodule

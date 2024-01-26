@@ -1,0 +1,21 @@
+module cla_32_bit(
+	input [31:0] A,
+	input [31:0] B,
+	input carryIn,
+	output carryOut,
+	output [31:0] R
+);
+
+	cla_4_bit i0(.A(A[3:0]), .B(B[3:0]), .carryIn(carryIn), .carryOut(X0), .R(R[3:0]));
+	cla_4_bit i1(.A(A[7:4]), .B(B[7:4]), .carryIn(X0), .carryOut(X1), .R(R[7:4]));
+	cla_4_bit i2(.A(A[11:8]), .B(B[11:8]), .carryIn(X1), .carryOut(X2), .R(R[11:8]));
+	cla_4_bit i3(.A(A[15:12]), .B(B[15:12]), .carryIn(X2), .carryOut(X3), .R(R[15:12]));
+	cla_4_bit i4(.A(A[19:16]), .B(B[19:16]), .carryIn(X3), .carryOut(X4), .R(R[19:16]));
+	cla_4_bit i5(.A(A[23:20]), .B(B[23:20]), .carryIn(X4), .carryOut(X5), .R(R[23:20]));
+	cla_4_bit i6(.A(A[27:24]), .B(B[27:24]), .carryIn(X5), .carryOut(X6), .R(R[27:24]));
+	cla_4_bit i7(.A(A[31:28]), .B(B[31:28]), .carryIn(X6), .carryOut(carryOut), .R(R[31:28]));
+
+
+
+
+endmodule

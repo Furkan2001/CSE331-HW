@@ -1,0 +1,5 @@
+module my_nor (output out, input in1, in2);
+
+
+
+endmodule

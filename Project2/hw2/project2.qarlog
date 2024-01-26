@@ -1,0 +1,36 @@
+Quartus Prime Archive log --	C:/Users/Furkan/Desktop/hw2/project2.qarlog
+
+Archive:	C:/Users/Furkan/Desktop/hw2/project2.qar
+Date:		Sun Dec 10 13:03:07 2023
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Furkan/Desktop/hw2/adder_1_bit.v
+C:/Users/Furkan/Desktop/hw2/cla_32_bit.v
+C:/Users/Furkan/Desktop/hw2/cla_4_bit.v
+C:/Users/Furkan/Desktop/hw2/design_p_and_g.v
+C:/Users/Furkan/Desktop/hw2/mod.v
+C:/Users/Furkan/Desktop/hw2/mod_cu.v
+C:/Users/Furkan/Desktop/hw2/mod_dp.v
+C:/Users/Furkan/Desktop/hw2/mux2x1_1bit.v
+C:/Users/Furkan/Desktop/hw2/mux2x1_32bit.v
+C:/Users/Furkan/Desktop/hw2/mux8x1_1bit.v
+C:/Users/Furkan/Desktop/hw2/mux8x1_32bit.v
+C:/Users/Furkan/Desktop/hw2/my_add.v
+C:/Users/Furkan/Desktop/hw2/my_alu.v
+C:/Users/Furkan/Desktop/hw2/my_and.v
+C:/Users/Furkan/Desktop/hw2/my_and_32_bit.v
+C:/Users/Furkan/Desktop/hw2/my_nor.v
+C:/Users/Furkan/Desktop/hw2/my_nor_32_bit.v
+C:/Users/Furkan/Desktop/hw2/my_or.v
+C:/Users/Furkan/Desktop/hw2/my_or_32_bit.v
+C:/Users/Furkan/Desktop/hw2/my_testbench.v
+C:/Users/Furkan/Desktop/hw2/my_xor.v
+C:/Users/Furkan/Desktop/hw2/my_xor_32_bit.v
+C:/Users/Furkan/Desktop/hw2/project2.qpf
+C:/Users/Furkan/Desktop/hw2/project2.qsf
+c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 25 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

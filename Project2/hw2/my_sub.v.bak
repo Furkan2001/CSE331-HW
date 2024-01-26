@@ -1,0 +1,36 @@
+module my_sub (output [31:0] R, input [31:0] A, B);
+
+xor xor1(xor_B[0], w3, B[0]);
+xor xor2(xor_B[1], w3, B[1]);
+xor xor3(xor_B[2], w3, B[2]);
+xor xor4(xor_B[3], w3, B[3]);
+xor xor5(xor_B[4], w3, B[4]);
+xor xor6(xor_B[5], w3, B[5]);
+xor xor7(xor_B[6], w3, B[6]);
+xor xor8(xor_B[7], w3, B[7]);
+xor xor9(xor_B[8], w3, B[8]);
+xor xor10(xor_B[9], w3, B[9]);
+xor xor11(xor_B[10], w3, B[10]);
+xor xor12(xor_B[11], w3, B[11]);
+xor xor13(xor_B[12], w3, B[12]);
+xor xor14(xor_B[13], w3, B[13]);
+xor xor15(xor_B[14], w3, B[14]);
+xor xor16(xor_B[15], w3, B[15]);
+xor xor17(xor_B[16], w3, B[16]);
+xor xor18(xor_B[17], w3, B[17]);
+xor xor19(xor_B[18], w3, B[18]);
+xor xor20(xor_B[19], w3, B[19]);
+xor xor21(xor_B[20], w3, B[20]);
+xor xor22(xor_B[21], w3, B[21]);
+xor xor23(xor_B[22], w3, B[22]);
+xor xor24(xor_B[23], w3, B[23]);
+xor xor25(xor_B[24], w3, B[24]);
+xor xor26(xor_B[25], w3, B[25]);
+xor xor27(xor_B[26], w3, B[26]);
+xor xor28(xor_B[27], w3, B[27]);
+xor xor29(xor_B[28], w3, B[28]);
+xor xor30(xor_B[29], w3, B[29]);
+xor xor31(xor_B[30], w3, B[30]);
+xor xor32(xor_B[31], w3, B[31]);
+
+endmodule

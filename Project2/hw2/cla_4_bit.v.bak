@@ -1,0 +1,49 @@
+module cla_4_bit (input [3:0] A, input [3:0] B, input carryIn, output carryOut, output [3:0] R);
+
+	wire [3:0] P,G,C;
+	
+	and and1(G[0], A[0], B[0]);
+	or or1(P[0], A[0], B[0]);
+	
+	// c1 = g0 + p0c0
+	and i0(X0, P[0], carryIn);
+	or i1(C[0], G[0], X0);
+	
+	adder_1_bit zurt(.A(A[0]), .B(B[0]), .carryIn(carryIn), .R(R[0]));
+	
+	
+	and and2(G[1], A[1], B[1]);
+	or or2(P[1], A[1], B[1]);
+	
+	// c2 = g1 + g0p1 + p1p0c0
+	and i2(X, P[1], P[0], carryIn);
+	and i3(X1, G[0], P[1]);
+	or i4(C[1], G[1], X1, X);
+	
+	adder_1_bit zert(.A(A[1]), .B(B[1]), .carryIn(C[0]), .R(R[1]));
+	
+	and and3(G[2], A[2], B[2]);
+	or or3(P[2], A[2], B[2]);
+	
+	// c3 = g2 + p2g1 + p2p1g0 + p2p1p0c0
+	and i5(X2, P[2], P[1], P[0], carryIn);
+	and i6(X3, P[2], P[1], G[0]);
+	and i7(X4, P[2], G[1]);
+	or i8(C[2], G[2], X2, X3, X4);
+	
+	adder_1_bit zort(.A(A[2]), .B(B[2]), .carryIn(C[1]), .R(R[2]));
+	
+	
+	and and4(G[3], A[3], B[3]);
+	or or4(P[3], A[3], B[3]);
+	
+	// c4 = g3 + p3g2 + p3p2g1 + p3p2p1g0 + p3p2p1p0c0
+	and i9(X5, P[3], P[2], P[1], P[0], carryIn);
+	and i10(X6, P[3], P[2], P[1], G[0]);
+	and i11(X7, P[3], P[2], G[1]);
+	and i12(X8, P[3], G[2]);
+	or i13(carryOut, G[3], X8, X7, X6, X5);
+	
+	adder_1_bit zart(.A(A[3]), .B(B[3]), .carryIn(C[2]), .R(R[3]));
+	
+endmodule
